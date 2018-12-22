@@ -13,13 +13,14 @@
 		C5019B652131D72800CE8FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5019B632131D72800CE8FFF /* Main.storyboard */; };
 		C5019B6A2131D72B00CE8FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5019B682131D72B00CE8FFF /* LaunchScreen.storyboard */; };
 		C50F88E2217B5D2F00751893 /* red-restart-icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = C50F88E1217B5D2F00751893 /* red-restart-icon-29.png */; };
-		C52B6FF921848CF7009C1B8D /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = C52B6FF821848CF7009C1B8D /* Launch.png */; };
-		C52B6FFB21848D8B009C1B8D /* dd034aab682917365e88b7b0a2523924.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C52B6FFA21848D8B009C1B8D /* dd034aab682917365e88b7b0a2523924.jpg */; };
 		C52B70032184940D009C1B8D /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = C52B70022184940D009C1B8D /* image.png */; };
 		C52B7009218494D9009C1B8D /* camera (3).png in Resources */ = {isa = PBXBuildFile; fileRef = C52B7008218494D9009C1B8D /* camera (3).png */; };
 		C52FA3992137F0D800FF2803 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52FA3982137F0D800FF2803 /* FirstViewController.swift */; };
 		C5696F4621694D4D0005D1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5019B5F2131D72800CE8FFF /* AppDelegate.swift */; };
 		C5696F4821695C1E0005D1B3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5696F4721695C1E0005D1B3 /* Media.xcassets */; };
+		C5B17BB1219C8696001E322A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5B17BB0219C8695001E322A /* GoogleService-Info.plist */; };
+		C5F0FFEE21BECC0C0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5F0FFED21BECC0B0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg */; };
+		C5F0FFF021BECF3F0033D83B /* puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5F0FFEF21BECF3F0033D83B /* puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +35,13 @@
 		C5019B692131D72B00CE8FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5019B6B2131D72B00CE8FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C50F88E1217B5D2F00751893 /* red-restart-icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-restart-icon-29.png"; sourceTree = "<group>"; };
-		C52B6FF821848CF7009C1B8D /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Launch.png; path = ../../Launch.png; sourceTree = "<group>"; };
-		C52B6FFA21848D8B009C1B8D /* dd034aab682917365e88b7b0a2523924.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dd034aab682917365e88b7b0a2523924.jpg; sourceTree = "<group>"; };
 		C52B70022184940D009C1B8D /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		C52B7008218494D9009C1B8D /* camera (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera (3).png"; sourceTree = "<group>"; };
 		C52FA3982137F0D800FF2803 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C5696F4721695C1E0005D1B3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		C5B17BB0219C8695001E322A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C5F0FFED21BECC0B0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg"; sourceTree = "<group>"; };
+		C5F0FFEF21BECF3F0033D83B /* puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,19 +86,20 @@
 		C5019B5E2131D72800CE8FFF /* DogeDex */ = {
 			isa = PBXGroup;
 			children = (
-				C52B6FF821848CF7009C1B8D /* Launch.png */,
 				C500A5E52136E589005471AC /* Inceptionv3.mlmodel */,
 				C5019B5F2131D72800CE8FFF /* AppDelegate.swift */,
 				C52FA3982137F0D800FF2803 /* FirstViewController.swift */,
 				C5019B612131D72800CE8FFF /* SecondViewController.swift */,
 				C5019B632131D72800CE8FFF /* Main.storyboard */,
-				C52B6FFA21848D8B009C1B8D /* dd034aab682917365e88b7b0a2523924.jpg */,
 				C50F88E1217B5D2F00751893 /* red-restart-icon-29.png */,
 				C52B7008218494D9009C1B8D /* camera (3).png */,
 				C52B70022184940D009C1B8D /* image.png */,
+				C5F0FFED21BECC0B0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg */,
+				C5B17BB0219C8695001E322A /* GoogleService-Info.plist */,
 				C5019B682131D72B00CE8FFF /* LaunchScreen.storyboard */,
 				C5019B6B2131D72B00CE8FFF /* Info.plist */,
 				C5696F4721695C1E0005D1B3 /* Media.xcassets */,
+				C5F0FFEF21BECF3F0033D83B /* puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg */,
 			);
 			path = DogeDex;
 			sourceTree = "<group>";
@@ -170,12 +173,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5696F4821695C1E0005D1B3 /* Media.xcassets in Resources */,
-				C52B6FF921848CF7009C1B8D /* Launch.png in Resources */,
+				C5B17BB1219C8696001E322A /* GoogleService-Info.plist in Resources */,
 				C5019B6A2131D72B00CE8FFF /* LaunchScreen.storyboard in Resources */,
+				C5F0FFEE21BECC0C0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg in Resources */,
 				C50F88E2217B5D2F00751893 /* red-restart-icon-29.png in Resources */,
 				C52B70032184940D009C1B8D /* image.png in Resources */,
 				C5019B652131D72800CE8FFF /* Main.storyboard in Resources */,
-				C52B6FFB21848D8B009C1B8D /* dd034aab682917365e88b7b0a2523924.jpg in Resources */,
+				C5F0FFF021BECF3F0033D83B /* puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg in Resources */,
 				C52B7009218494D9009C1B8D /* camera (3).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,14 +195,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DogeDex/Pods-DogeDex-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,8 +391,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3G4Z22GEP;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DogeDex/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,8 +414,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3G4Z22GEP;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DogeDex/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

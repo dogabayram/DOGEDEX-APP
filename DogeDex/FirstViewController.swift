@@ -13,8 +13,12 @@ import Alamofire
 import SwiftyJSON
 import SVProgressHUD
 import MobileCoreServices
+import GoogleMobileAds
+import Firebase
 
-class FirstViewController: UIViewController , UIImagePickerControllerDelegate , UINavigationControllerDelegate{
+
+
+class FirstViewController: UIViewController , UIImagePickerControllerDelegate , UINavigationControllerDelegate,GADBannerViewDelegate,GADInterstitialDelegate {
     
     
     struct Dogs {
@@ -35,16 +39,62 @@ class FirstViewController: UIViewController , UIImagePickerControllerDelegate , 
     let newURL = "https://api.thedogapi.com/v1/breeds?"
     var newDict : [String : Int] = [:]
     var dog = Dogs(name: nil, height: nil, weight: nil, temperament: nil, breed_group: nil, life_span: nil)
+    var interstitial: GADInterstitial!
+    var counter = 0
+    var firstAttempt = false
+   
+
     
- 
+    
+    @IBOutlet weak var bannerView: GADBannerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
      
         
-    }
- 
 
+        
+        bannerView.adUnitID = "ca-app-pub-1606446005801860/6611755672"
+        bannerView.rootViewController = self
+        bannerView.load(GADRequest())
+        
+          //self.interstitial = self.createAndLoadAd()
+        
+        self.interstitial = self.createAndLoadAd()
+
+ 
+        
+    }
+    
+   
+    
+    func createAndLoadAd() -> GADInterstitial {
+        
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-1606446005801860/5706825970")
+        let request = GADRequest()
+        interstitial.load(request)
+        return interstitial
+    }
+
+    
     @IBAction func libraryButtonPressed(_ sender: UIButton) {
+        
+        if counter > 2 {
+        
+        if interstitial.isReady {
+            interstitial.present(fromRootViewController: self)
+        } else {
+            print("Ad wasn't ready")
+        }
+    
+            self.interstitial = createAndLoadAd()
+            counter = 0
+        
+        }
+    
+        
+      
+        
             imagePicker.delegate = self
             imagePicker.sourceType = UIImagePickerController.SourceType.photoLibrary
             imagePicker.allowsEditing = true
@@ -54,6 +104,20 @@ class FirstViewController: UIViewController , UIImagePickerControllerDelegate , 
     
     
     @IBAction func cameraButtonPressed(_ sender: Any) {
+        
+        if counter > 2 {
+            
+            if interstitial.isReady {
+                interstitial.present(fromRootViewController: self)
+            } else {
+                print("Ad wasn't ready")
+            }
+            
+            self.interstitial = createAndLoadAd()
+            counter = 0
+        }
+     
+        
             imagePicker.sourceType = UIImagePickerController.SourceType.camera
             imagePicker.delegate = self
             imagePicker.cameraCaptureMode = .photo
@@ -106,9 +170,6 @@ class FirstViewController: UIViewController , UIImagePickerControllerDelegate , 
             
             }
 
-            
-        
-        
         let handler = VNImageRequestHandler(ciImage: image)
         do {
             try handler.perform([request])
@@ -160,7 +221,6 @@ class FirstViewController: UIViewController , UIImagePickerControllerDelegate , 
                     guard let id = dict["id"] as? Int else {return}
                     
                     self.newDict[name] = id
-                    
                     
                 }
                 
@@ -292,6 +352,16 @@ class FirstViewController: UIViewController , UIImagePickerControllerDelegate , 
     }
     
     @IBAction func unWind(_ sender: UIStoryboardSegue) {
+        
+        counter += 1
+ 
+        bannerView.adUnitID = "ca-app-pub-1606446005801860/6611755672"
+        bannerView.rootViewController = self
+        bannerView.load(GADRequest())
+
+        print(counter)
+      
+        
     }
 
 }

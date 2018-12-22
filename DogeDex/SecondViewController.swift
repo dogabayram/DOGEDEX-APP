@@ -9,6 +9,9 @@
 import UIKit
 import CoreML
 import Vision
+import MobileCoreServices
+import GoogleMobileAds
+import Firebase
 
 class SecondViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
@@ -41,6 +44,9 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
 
         titleLabel.text = titleFVC ?? "Could not find title"
         imageView.image = imageViewFVC
@@ -53,6 +59,10 @@ class SecondViewController: UIViewController {
 
         
     }
+    
+   
+    
+    
 }
     
     

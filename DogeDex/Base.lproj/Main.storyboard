@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dd034aab682917365e88b7b0a2523924.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="b0o-TG-VaT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="b0o-TG-VaT">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ke-8G-I61">
@@ -26,8 +25,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="vSG-3X-6XO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
-                                <color key="textColor" red="1" green="0.41960784313725491" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="28"/>
+                                <color key="textColor" red="0.92549019607843142" green="0.90980392156862744" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EvW-QK-MLW">
@@ -36,15 +35,13 @@
                                     <constraint firstAttribute="height" constant="30" id="9ex-qF-QwA"/>
                                     <constraint firstAttribute="width" constant="35" id="VJH-qg-tbc"/>
                                 </constraints>
-                                <state key="normal" image="red-restart-icon-29.png">
-                                    <color key="titleColor" red="1" green="0.41960784309999999" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" image="red-restart-icon-29.png"/>
                                 <connections>
                                     <segue destination="L9x-IL-Ngf" kind="unwind" identifier="exit" unwindAction="unWind:" id="oPh-sd-k2v"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TEC-u6-INR" customClass="RoundedImageView" customModule="Dogedex" customModuleProvider="target">
-                                <rect key="frame" x="87.666666666666686" y="85" width="239" height="221"/>
+                                <rect key="frame" x="87.666666666666686" y="90" width="239" height="221"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="TEC-u6-INR" secondAttribute="height" multiplier="40:37" id="PgY-Mf-I6E"/>
                                 </constraints>
@@ -55,53 +52,53 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Vgm-a3-jTw">
-                                <rect key="frame" x="15" y="306" width="384" height="430"/>
+                                <rect key="frame" x="15" y="311" width="384" height="425"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life Span" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAF-6i-u2L">
-                                        <rect key="frame" x="0.0" y="0.0" width="384" height="53.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="53.333333333333336"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
-                                        <color key="textColor" red="1" green="0.41960784313725491" blue="0.24705882352941178" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.46666666666666667" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Life Span " textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNg-KO-VeY">
-                                        <rect key="frame" x="0.0" y="53.666666666666686" width="384" height="54"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="53.333333333333314" width="384" height="53"/>
+                                        <color key="textColor" red="0.98039215690000003" green="0.96470588239999999" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperament" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCl-AG-jfc">
-                                        <rect key="frame" x="0.0" y="107.6666666666667" width="384" height="53.666666666666671"/>
+                                        <rect key="frame" x="0.0" y="106.33333333333331" width="384" height="53"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
-                                        <color key="textColor" red="1" green="0.41960784309999999" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.46666666666666667" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Activities" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJR-yz-69C">
-                                        <rect key="frame" x="0.0" y="161.33333333333331" width="384" height="53.666666666666657"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="159.33333333333331" width="384" height="53.333333333333343"/>
+                                        <color key="textColor" red="0.98039215686274506" green="0.96470588235294119" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBs-L2-A7E">
-                                        <rect key="frame" x="0.0" y="215" width="384" height="53.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="212.66666666666663" width="384" height="53"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
-                                        <color key="textColor" red="1" green="0.41960784309999999" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.46666666666666667" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Weight" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1YT-v0-SWX">
-                                        <rect key="frame" x="0.0" y="268.66666666666663" width="384" height="54"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="265.66666666666663" width="384" height="53"/>
+                                        <color key="textColor" red="0.98039215686274506" green="0.96470588235294119" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Height" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAm-QO-Npj">
-                                        <rect key="frame" x="0.0" y="322.66666666666663" width="384" height="53.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="318.66666666666663" width="384" height="53.333333333333314"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
-                                        <color key="textColor" red="1" green="0.41960784309999999" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.46666666666666667" green="0.59215686274509804" blue="0.6588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Height" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEn-V0-7Y4">
-                                        <rect key="frame" x="0.0" y="376.33333333333337" width="384" height="53.666666666666686"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="372" width="384" height="53"/>
+                                        <color key="textColor" red="0.98039215686274506" green="0.96470588235294119" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -113,13 +110,15 @@
                             <constraint firstAttribute="bottom" secondItem="b0o-TG-VaT" secondAttribute="bottom" id="3VT-LU-Doo"/>
                             <constraint firstItem="Vgm-a3-jTw" firstAttribute="top" secondItem="TEC-u6-INR" secondAttribute="bottom" id="4eb-2W-BGp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EvW-QK-MLW" secondAttribute="trailing" constant="15" id="66b-TX-uSm"/>
-                            <constraint firstItem="TEC-u6-INR" firstAttribute="top" secondItem="9Ke-8G-I61" secondAttribute="bottom" id="CAj-I1-Sxp"/>
+                            <constraint firstItem="b0o-TG-VaT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6A8-gF-qUQ"/>
+                            <constraint firstItem="TEC-u6-INR" firstAttribute="top" secondItem="9Ke-8G-I61" secondAttribute="bottom" constant="5" id="CAj-I1-Sxp"/>
                             <constraint firstItem="9Ke-8G-I61" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="HZ3-Hn-JKq"/>
                             <constraint firstItem="b0o-TG-VaT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LQ4-rh-h5P"/>
                             <constraint firstItem="EvW-QK-MLW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LYC-gh-5jS"/>
                             <constraint firstItem="9Ke-8G-I61" firstAttribute="top" secondItem="EvW-QK-MLW" secondAttribute="bottom" id="RIr-B4-hvb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Ke-8G-I61" secondAttribute="trailing" constant="15" id="Uwa-Hf-VL1"/>
-                            <constraint firstItem="TEC-u6-INR" firstAttribute="top" secondItem="9Ke-8G-I61" secondAttribute="bottom" id="Wqu-dI-j2a"/>
+                            <constraint firstItem="b0o-TG-VaT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WaI-ZO-46D"/>
+                            <constraint firstItem="TEC-u6-INR" firstAttribute="top" secondItem="9Ke-8G-I61" secondAttribute="bottom" constant="5" id="Wqu-dI-j2a"/>
                             <constraint firstItem="Vgm-a3-jTw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="afQ-Pp-lW5"/>
                             <constraint firstItem="TEC-u6-INR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87.5" id="cRj-b9-jv1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vgm-a3-jTw" secondAttribute="trailing" constant="15" id="gev-fm-ZdK"/>
@@ -127,6 +126,8 @@
                             <constraint firstItem="b0o-TG-VaT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ief-XD-2yI"/>
                             <constraint firstItem="Vgm-a3-jTw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="lYe-Av-kkD"/>
                             <constraint firstAttribute="trailing" secondItem="b0o-TG-VaT" secondAttribute="trailing" id="qqK-cw-are"/>
+                            <constraint firstAttribute="trailing" secondItem="b0o-TG-VaT" secondAttribute="trailing" id="rOz-cI-4GK"/>
+                            <constraint firstItem="b0o-TG-VaT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tnk-VH-7KE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -159,28 +160,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dd034aab682917365e88b7b0a2523924.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="F1h-nJ-2V0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="F1h-nJ-2V0">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DogeDex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ibS-JA-FJW">
-                                <rect key="frame" x="90" y="70" width="234" height="104"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newTitle" translatesAutoresizingMaskIntoConstraints="NO" id="pTa-oV-rn6">
+                                <rect key="frame" x="16" y="139" width="382" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="ibS-JA-FJW" secondAttribute="height" multiplier="9:4" id="j4K-fa-rEM"/>
+                                    <constraint firstAttribute="height" constant="100" id="Akt-KI-LYn"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yuz-8y-x5f" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="686" width="414" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kgH-yO-DTV"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SYA-pg-kl0">
-                                <rect key="frame" x="16" y="274" width="382" height="188"/>
+                                <rect key="frame" x="8" y="274" width="390" height="188"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ioo-P3-dre">
-                                        <rect key="frame" x="245.66666666666669" y="0.0" width="128.33333333333331" height="182.66666666666666"/>
+                                        <rect key="frame" x="281.66666666666669" y="0.0" width="100.33333333333331" height="182.66666666666666"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOh-Os-Kxy">
-                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100.33333333333333" height="110.33333333333333"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="OOh-Os-Kxy" secondAttribute="height" multiplier="1:1" id="aEy-Tt-gjf"/>
+                                                    <constraint firstAttribute="width" secondItem="OOh-Os-Kxy" secondAttribute="height" multiplier="1:1.1" id="aEy-Tt-gjf"/>
                                                 </constraints>
                                                 <state key="normal" image="camera (3).png">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -190,23 +194,23 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Uu9-qd-I7J">
-                                                <rect key="frame" x="21.999999999999993" y="128" width="84.333333333333314" height="54.666666666666657"/>
+                                                <rect key="frame" x="8" y="110.33333333333331" width="84.333333333333329" height="72.333333333333314"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="34"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="ioo-P3-dre" secondAttribute="height" multiplier="64:91" id="lVL-2f-jZs"/>
+                                            <constraint firstAttribute="width" secondItem="ioo-P3-dre" secondAttribute="height" multiplier="50:91" id="lVL-2f-jZs"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="-13" translatesAutoresizingMaskIntoConstraints="NO" id="ada-67-ezj">
-                                        <rect key="frame" x="8" y="18" width="128.33333333333334" height="169.66666666666666"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="-17" translatesAutoresizingMaskIntoConstraints="NO" id="ada-67-ezj">
+                                        <rect key="frame" x="8" y="16" width="138.66666666666666" height="171.66666666666666"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0K0-rg-KFk">
-                                                <rect key="frame" x="0.3333333333333286" y="0.0" width="127.99999999999999" height="128"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="138.66666666666666" height="97"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="0K0-rg-KFk" secondAttribute="height" multiplier="1:1" id="eGb-Tm-T8H"/>
+                                                    <constraint firstAttribute="width" secondItem="0K0-rg-KFk" secondAttribute="height" multiplier="1:0.7" id="eGb-Tm-T8H"/>
                                                 </constraints>
                                                 <state key="normal" image="image.png">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -216,14 +220,14 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gallery" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="6jw-La-0k6">
-                                                <rect key="frame" x="12.666666666666657" y="115.00000000000001" width="103" height="54.666666666666671"/>
+                                                <rect key="frame" x="18" y="80" width="103" height="91.666666666666686"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="34"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="ada-67-ezj" secondAttribute="height" multiplier="128:169" id="QC0-0I-VrN"/>
+                                            <constraint firstAttribute="width" secondItem="ada-67-ezj" secondAttribute="height" multiplier="118:169" constant="19" id="QC0-0I-VrN"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
@@ -232,7 +236,7 @@
                                     <constraint firstAttribute="bottom" secondItem="ada-67-ezj" secondAttribute="bottom" constant="0.5" id="0CF-4L-ZXf"/>
                                     <constraint firstItem="ioo-P3-dre" firstAttribute="top" secondItem="SYA-pg-kl0" secondAttribute="top" id="KjF-Ec-aBq"/>
                                     <constraint firstItem="ada-67-ezj" firstAttribute="leading" secondItem="SYA-pg-kl0" secondAttribute="leading" constant="8" id="PlD-Rf-crW"/>
-                                    <constraint firstItem="ada-67-ezj" firstAttribute="top" secondItem="SYA-pg-kl0" secondAttribute="top" constant="18" id="UkM-8s-cY3"/>
+                                    <constraint firstItem="ada-67-ezj" firstAttribute="top" secondItem="SYA-pg-kl0" secondAttribute="top" constant="16" id="UkM-8s-cY3"/>
                                     <constraint firstAttribute="trailing" secondItem="ioo-P3-dre" secondAttribute="trailing" constant="8" id="dle-jZ-CbC"/>
                                     <constraint firstAttribute="bottom" secondItem="ioo-P3-dre" secondAttribute="bottom" constant="5.5" id="wus-2y-MEB"/>
                                 </constraints>
@@ -241,16 +245,19 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="J5O-G8-4NZ" firstAttribute="trailing" secondItem="SYA-pg-kl0" secondAttribute="trailing" constant="16" id="1Qk-jW-hkc"/>
+                            <constraint firstAttribute="bottom" secondItem="yuz-8y-x5f" secondAttribute="bottom" id="55Y-17-Veu"/>
+                            <constraint firstItem="F1h-nJ-2V0" firstAttribute="leading" secondItem="eiR-Hd-VTL" secondAttribute="leading" id="5Vj-Sf-Mmd"/>
                             <constraint firstItem="SYA-pg-kl0" firstAttribute="centerY" secondItem="eiR-Hd-VTL" secondAttribute="centerY" id="7iQ-A6-Djq"/>
-                            <constraint firstItem="ibS-JA-FJW" firstAttribute="leading" secondItem="J5O-G8-4NZ" secondAttribute="leading" constant="90" id="9iA-kk-oE9"/>
-                            <constraint firstAttribute="bottom" secondItem="F1h-nJ-2V0" secondAttribute="bottom" id="FYk-j6-vDg"/>
-                            <constraint firstItem="SYA-pg-kl0" firstAttribute="leading" secondItem="J5O-G8-4NZ" secondAttribute="leading" constant="16" id="Fkl-Kn-7F6"/>
+                            <constraint firstAttribute="bottom" secondItem="F1h-nJ-2V0" secondAttribute="bottom" id="8Ty-4e-BPW"/>
+                            <constraint firstItem="J5O-G8-4NZ" firstAttribute="trailing" secondItem="pTa-oV-rn6" secondAttribute="trailing" constant="16" id="AuM-Bm-kqf"/>
+                            <constraint firstItem="F1h-nJ-2V0" firstAttribute="top" secondItem="eiR-Hd-VTL" secondAttribute="top" id="Ava-e6-2Dl"/>
+                            <constraint firstItem="pTa-oV-rn6" firstAttribute="top" secondItem="J5O-G8-4NZ" secondAttribute="top" constant="119" id="EdD-PG-Z9o"/>
+                            <constraint firstItem="SYA-pg-kl0" firstAttribute="leading" secondItem="J5O-G8-4NZ" secondAttribute="leading" constant="8" id="Fkl-Kn-7F6"/>
                             <constraint firstItem="SYA-pg-kl0" firstAttribute="centerX" secondItem="eiR-Hd-VTL" secondAttribute="centerX" id="IsQ-Kg-fr3"/>
-                            <constraint firstAttribute="trailing" secondItem="F1h-nJ-2V0" secondAttribute="trailing" id="O6z-wz-GKd"/>
-                            <constraint firstItem="F1h-nJ-2V0" firstAttribute="leading" secondItem="eiR-Hd-VTL" secondAttribute="leading" id="dw4-wB-bJ9"/>
-                            <constraint firstItem="J5O-G8-4NZ" firstAttribute="trailing" secondItem="ibS-JA-FJW" secondAttribute="trailing" constant="90" id="g8O-6T-FlK"/>
-                            <constraint firstItem="F1h-nJ-2V0" firstAttribute="top" secondItem="eiR-Hd-VTL" secondAttribute="top" id="o8i-IL-FOH"/>
-                            <constraint firstItem="ibS-JA-FJW" firstAttribute="top" secondItem="J5O-G8-4NZ" secondAttribute="top" constant="50" id="pDk-SE-XXd"/>
+                            <constraint firstItem="yuz-8y-x5f" firstAttribute="trailing" secondItem="J5O-G8-4NZ" secondAttribute="trailing" id="Jcz-mf-iqM"/>
+                            <constraint firstItem="yuz-8y-x5f" firstAttribute="leading" secondItem="J5O-G8-4NZ" secondAttribute="leading" id="TfA-2n-Z4M"/>
+                            <constraint firstItem="pTa-oV-rn6" firstAttribute="leading" secondItem="J5O-G8-4NZ" secondAttribute="leading" constant="16" id="iYC-ug-5LC"/>
+                            <constraint firstAttribute="trailing" secondItem="F1h-nJ-2V0" secondAttribute="trailing" id="sd3-tl-GGr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="J5O-G8-4NZ"/>
                     </view>
@@ -262,18 +269,20 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="bannerView" destination="yuz-8y-x5f" id="sZp-7Q-EGG"/>
                         <segue destination="BYZ-38-t0r" kind="presentation" identifier="SecondVC" id="7IA-jB-JRE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNN-cj-odS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1296.8" y="129.98500749625188"/>
+            <point key="canvasLocation" x="1295.2" y="129.08545727136433"/>
         </scene>
     </scenes>
     <resources>
         <image name="camera (3).png" width="128" height="128"/>
-        <image name="dd034aab682917365e88b7b0a2523924.jpg" width="1080" height="1920"/>
         <image name="image.png" width="128" height="128"/>
+        <image name="newTitle" width="294" height="82"/>
+        <image name="puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg" width="3884" height="2913"/>
         <image name="red-restart-icon-29.png" width="247" height="246"/>
     </resources>
 </document>
