@@ -18,7 +18,6 @@
 		C52FA3992137F0D800FF2803 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52FA3982137F0D800FF2803 /* FirstViewController.swift */; };
 		C5696F4621694D4D0005D1B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5019B5F2131D72800CE8FFF /* AppDelegate.swift */; };
 		C5696F4821695C1E0005D1B3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5696F4721695C1E0005D1B3 /* Media.xcassets */; };
-		C5B17BB1219C8696001E322A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5B17BB0219C8695001E322A /* GoogleService-Info.plist */; };
 		C5F0FFEE21BECC0C0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5F0FFED21BECC0B0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg */; };
 		C5F0FFF021BECF3F0033D83B /* puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5F0FFEF21BECF3F0033D83B /* puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		C52B7008218494D9009C1B8D /* camera (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera (3).png"; sourceTree = "<group>"; };
 		C52FA3982137F0D800FF2803 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C5696F4721695C1E0005D1B3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		C5B17BB0219C8695001E322A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C5F0FFED21BECC0B0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg"; sourceTree = "<group>"; };
 		C5F0FFEF21BECF3F0033D83B /* puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppy-dog-canine-pet-mammal-domestic-animal-126385-pxhere.com.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +93,6 @@
 				C52B7008218494D9009C1B8D /* camera (3).png */,
 				C52B70022184940D009C1B8D /* image.png */,
 				C5F0FFED21BECC0B0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg */,
-				C5B17BB0219C8695001E322A /* GoogleService-Info.plist */,
 				C5019B682131D72B00CE8FFF /* LaunchScreen.storyboard */,
 				C5019B6B2131D72B00CE8FFF /* Info.plist */,
 				C5696F4721695C1E0005D1B3 /* Media.xcassets */,
@@ -173,7 +170,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5696F4821695C1E0005D1B3 /* Media.xcassets in Resources */,
-				C5B17BB1219C8696001E322A /* GoogleService-Info.plist in Resources */,
 				C5019B6A2131D72B00CE8FFF /* LaunchScreen.storyboard in Resources */,
 				C5F0FFEE21BECC0C0033D83B /* puppy-dog-animal-pet-mammal-collar-919942-pxhere.com.jpg in Resources */,
 				C50F88E2217B5D2F00751893 /* red-restart-icon-29.png in Resources */,
