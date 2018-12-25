@@ -54,7 +54,6 @@ class FirstViewController: UIViewController , UIImagePickerControllerDelegate , 
         
 
         
-        bannerView.adUnitID = "ca-app-pub-1606446005801860/6611755672"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         
@@ -70,7 +69,6 @@ class FirstViewController: UIViewController , UIImagePickerControllerDelegate , 
     
     func createAndLoadAd() -> GADInterstitial {
         
-        interstitial = GADInterstitial(adUnitID: "ca-app-pub-1606446005801860/5706825970")
         let request = GADRequest()
         interstitial.load(request)
         return interstitial
@@ -355,7 +353,6 @@ class FirstViewController: UIViewController , UIImagePickerControllerDelegate , 
         
         counter += 1
  
-        bannerView.adUnitID = "ca-app-pub-1606446005801860/6611755672"
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
 
